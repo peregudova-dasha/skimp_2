@@ -45,7 +45,7 @@
 
       <header>
 
-        <div id="navigation">
+      
           <?php 
           include "menu.inc.php";
           ?>
