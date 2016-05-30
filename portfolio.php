@@ -29,45 +29,10 @@
 
 
       <header>
-       <div id="navigation">
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container-fluid">
-
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">Главная</a></li>
-                <li class="dropdown">
-                  <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Наши услуги<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="polygraphy.html">Полиграфическая продукция</a></li>
-                    <li><a href="lfp.html">Широкоформатная печать</a></li>
-                    <li><a href="digital.html">Цифровая печать</a></li>
-                    <li><a href="corp.html">Корпоративная продукция</a></li>
-                  </ul>
-                </li>
-                <li class="active"><a href="portfolio.html">Примеры наших работ</a></li>
-
-              </ul>
-
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="about_us.html">О нас</a></li>
-                <li><a href="index.html#scheme">Схема работы</a></li>
-                <li><a href="#mail">Связаться с нами</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>  
+      
+          <?php 
+          include "menu.inc.php";
+          ?>
     </header>
 
 
@@ -337,63 +302,10 @@
 </div>
 </div>
 
-<div id="mail"></div>
-<div id="feedback">
-  <div id="line"></div>
-      
-   <div class="container">
-    <h2 id="mail">Написать нам</h2>
-     <div class="col-md-4 col-sm-12 col-xs-12">
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis obcaecati mollitia fugiat molestiae praesentium, quo pariatur eos laudantium at harum quaerat, temporibus nihil. Ipsum est deleniti, explicabo, maiores eos accusamus!</p>
-     </div>
-      <div class="col-md-8 col-sm-12 col-xs-12">
-    
-       <div class="feedback_form">
-            <form class="contact_form" action="" method="post" name="contact_form" onsubmit="return validateForm()">
-                
-               <div class="img img1"></div>
-               <input id="name" name="name" type="text" class="form-control" placeholder="Ваше имя">
-              <span id="name_false" class="val_false"></span>
-              
-                    <div class="img img2">
-               </div><input id="email"  name="email" type="email" class="form-control" placeholder="Ваш e-mail">
-              
-                 <span id="email_false" class="val_false"></span>
-                 <div class="img img3"></div>
-               <textarea id="message"  name="message" class="form-control" rows="4" placeholder="Ваше сообщение" ></textarea>
 
-              </div> 
-                <div class="button">
-                  <button type="submit" id="send">Отправить </button>
-                </div>
-               </div>
-        </form>
-     </div>
-  </div>
-
-
-<div id="map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.8107085831416!2d30.470102942902937!3d50.42599833197416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cec773770653%3A0x493c34f93b7ec264!2z0LLRg9C7LiDQnNCw0LrRgdC40LzQsCDQmtGA0LjQstC-0L3QvtGB0LAsIDLQkCwgMkEsINCa0LjRl9Cy!5e0!3m2!1sru!2sua!4v1459866856813" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-
-<footer>
-  <div class="container">
-    <div class="left col-md-4 col-sm-4 col-xs-12">
-      <p>Lorem ipsum dolor Exercitationem corporis sit amet, consectetur adipisicing elit. Exercitationem corporis.</p>
-    </div>
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="logo"></div>
-      <h4>ООО "СКИМП"</h4>
-      <p>Киев, ул. Максима Кривоноса, 2а</p>
-    </div>
-    <div class="right col-md-4 col-sm-4 col-xs-12">
-      <p> s-seem@ukr.net <br> +38 067 507 60 38 <br> </p>
-    </div>
-  </div>
-</footer>
-
-
-
+          <?php 
+          include "footer.inc.php";
+          ?>
 
 
 
