@@ -28,12 +28,12 @@
 
 
       <header>
-      3  <?php 
+       <?php 
           include "menu.inc.php";
           ?>
       </header>
 
-        <div id="about">
+            <div id="about">
         <div class="container">
           <h1>О компании</h1>
           <div class="s col-md-4 col-sm-12 col-xs-12">
@@ -97,7 +97,6 @@
 
     </div>
   </div> 
-
 
   
           <?php 

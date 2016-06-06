@@ -34,7 +34,7 @@
           ?>
     </header>
 
-    <div class="head">
+     <div class="head">
       <div class="container">
         
         <h1>Цифровая печать</h1>
@@ -240,6 +240,12 @@
       </div>
     </div>
   </div>
+</div>
+
+<div id="to_portfolio">
+ <div class="button">
+   <a href="portfolio.php"><p>Посмотреть портфолио</p></a>
+ </div>
 </div>
 
 

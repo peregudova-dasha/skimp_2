@@ -29,283 +29,316 @@
 
 
       <header>
-      
-          <?php 
-          include "menu.inc.php";
-          ?>
-    </header>
+
+        <?php 
+        include "menu.inc.php";
+        ?>
+      </header>
 
 
-    <div id="work">
-      <div class="container">
-        <h1>Примеры наших работ</h1>
-        <div class="our_works">
-          <ul class="tabs">
-            <li class="t1 tab-current"><a><br>Полиграфия</a></li>
-            <li class="t2"><a>Корпоративная <br> продукция</a></li>
-            <li class="t3"><a><br>Цифровая печать</a></li>
-            <li class="t4"><a>Широкоформатная<br> печать</a></li>
-          </ul>
 
-          <div class="cont">
-            <div class="t1">
-              <div class="content content1">
+      <div id="work">
+        <div class="container">
+          <h1>Примеры наших работ</h1>
+          <div class="our_works">
+            <ul class="tabs">
+              <li class="t1 tab-current"><a><br>Полиграфия</a></li>
+              <li class="t2"><a>Корпоративная <br> продукция</a></li>
+              <li class="t3"><a><br>Цифровая печать</a></li>
+              <li class="t4"><a>Широкоформатная<br> печать</a></li>
+            </ul>
 
-                <div class="container container_img">
+            <div class="cont">
+              <div class="t1">
+                <div class="content content1">
+
+                  <div class="container container_img">
+                   <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="img">
+                      <img src="img/portfolio/4.jpg">
+                      <div class="about_item">
+                        <p>Календарь домик - основание: картон 350гр,блок: бумага мелованная 150гр/м, печать
+                          полноцветная, выборочный УФ лак, биговка, пружина металлическая </p>
+                        </div>  
+                      </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                      <div class="img">
+                        <img src="img/portfolio/17.jpg">
+                        <div class="about_item">
+                          <p>Каталоги - обложка: бумага мелованная 250гр/м, блок: бумага мелованная 150гр/м, печать
+                            полноцветная, ламинация обложки, выборочный лак, крепление клеевое </p>
+                          </div>  
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="img">
+                          <img src="img/portfolio/18.jpg">
+                          <div class="about_item">
+                            <p>Журналы - обложка: бумага мелованная 200гр/м, блок: бумага мелованная 130гр/м, печать
+                              полноцветная, ламинация обложки, выборочный лак, крепление клеевое, вклейка закладки на
+                              определенную страницу</p>
+                            </div>  
+                          </div>
+                        </div>
+
+
+                      </div>
+
+                      <div class="container container_img">
+                       <div class="col-md-4 col-sm-12 col-xs-12">
+
+                        <div class="img">
+                          <img src="img/portfolio/5.jpg">
+                          <div class="about_item">
+                            <pБуклеты - бумага мелованная 250гр/м, блокпечать полноцветная, ламинация
+                            обложки, выборочный лак, гибридный лак, апельсиновая корка, крепление: скоба. </p>
+                          </div>  
+                        </div>
+
+                      </div>
+                      <div class="col-md-4 col-sm-12 col-xs-12"> 
+
+                        <div class="img">
+                          <img src="img/portfolio/12.jpg">
+                          <div class="about_item">
+                            <p>Каталоги - обложка: пластик, картон 300гр/м, блок: бумага мелованная 150гр/м, печать
+                              полноцветная, ламинация обложки, выборочный лак, вставка рубрикаторов, крепление: скоба </p>
+                            </div>  
+                          </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+
+                          <div class="img">
+                            <img src="img/portfolio/14.jpg">
+                            <div class="about_item">
+                              <p>Блокноты - обложка: бумага мелованная 300гр/м, блок: бумага офсетная 80гр/м, печать
+                                полноцветная, ламинация обложки, выборочный лак, крепление: скоба </p>
+                              </div>  
+                            </div>
+
+                          </div>
+
+                        </div>
+
+
+                        <div class="container container_img">
+                         <div class="col-md-4 col-sm-12 col-xs-12">
+
+                          <div class="img">
+                            <img src="img/portfolio/8.jpg">
+                            <div class="about_item">
+                              <p>Журналы - обложка: бумага мелованная 250гр/м, блок: бумага мелованная 150гр/м, печать
+                                полноцветная, ламинация обложки, выборочный лак, крепление: скоба </p>
+                              </div>  
+                            </div>
+
+                          </div>
+                          <div class="col-md-4 col-sm-12 col-xs-12"> 
+
+                            <div class="img">
+                              <img src="img/portfolio/7.jpg">
+                              <div class="about_item">
+                                <p>Календарь домик - основание: картон 350гр,блок: бумага мелованная 150гр/м, вставки: бумага
+                                  калька, печать полноцветная, выборочный УФ лак, биговка, пружина металлическая </p>
+                                </div>  
+                              </div>
+
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+
+                              <div class="img">
+                                <img src="img/portfolio/16.jpg">
+                                <div class="about_item">
+                                  <p>Журналы - обложка: бумага мелованная 250гр/м, блок: бумага мелованная 150гр/м, печать
+                                    полноцветная, ламинация обложки, выборочный лак, крепление: евроскоба.</p>
+                                  </div>  
+                                </div>
+
+                              </div>
+
+                            </div>
+
+
+                          </div>
+                        </div>
+
+                        <div class="t2">
+                         <div class="content content2">
+                           <div class="container">
+                             <div class="container container_img">
+                            <h2>Текстиль</h2>
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+
+                             <div class="img">
+                              <img src="img/portfolio/1.jpg" alt="скимп" class="imr-responsive" /> 
+                              <div class="about_item">
+                                <p>Ростовая кукла Пантера - изготовлена из флиса, основание - поролон. Разработка макета </p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="img">
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                             <img  src="img/portfolio/1.2.jpg" alt="skimp" class="imr-responsive"/>
+                             <div class="about_item">
+                               <p>Ростовая кукла Пантера - изготовлена из флиса, основание - поролон. Разработка макета </p>
+                             </div>
+                           </div>
+                         </div>       
+
+                         <div class="img">
+                          <div class="col-md-4 col-sm-12 col-xs-12">
+                           <img src="img/portfolio/1.3.jpg" alt="скимп" class="imr-responsive" />
+                           <div class="about_item">
+                             <p>Ростовая кукла Пантера - изготовлена из флиса, основание - поролон. Разработка макета </p>
+                           </div>
+
+</div>
+                         </div>
+                       </div>
+ <div class="container container_img">
+                       <h2>Сувенирная продукция</h2>
+                       <div class="col-md-4 col-sm-12 col-xs-12">
+
+                         <div class="img">
+                          <img src="img/portfolio/27.jpg" alt="скимп" class="imr-responsive" style="transform: rotate(90deg)" /> 
+                          <div class="about_item">
+                            <p>Ручки с нанесением логотипа компании тампопечатью </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="img">
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                         <img  src="img/portfolio/26.jpg" alt="skimp" class="imr-responsive"/>
+                         <div class="about_item">
+                          <p>Наклейки – оракал, полноцветная печать, высечка. </p>
+                        </div>
+                      </div>
+                    </div>       
+
+                    <div class="img">
+                      <div class="col-md-4 col-sm-12 col-xs-12">
+                       <img src="img/portfolio/25.jpg" alt="скимп" class="imr-responsive" />
+                       <div class="about_item">
+                        <p>Папки - картон 350гр, печать полноцветная, ламинация, высечка, биговка </p>
+                      </div>
+                    </div>
+                  </div>
+ </div>
+                        <div class="container container_img">
+                         <div class="col-md-4 col-sm-12 col-xs-12">
+
+                          <div class="img">
+                            <img src="img/portfolio/3.jpg">
+                            <div class="about_item">
+                              <p> </p>
+                              </div>  
+                            </div>
+
+                          </div>
+                          <div class="col-md-4 col-sm-12 col-xs-12"> 
+
+                            <div class="img">
+                              <img src="img/portfolio/2.jpg">
+                              <div class="about_item">
+                                <p> </p>
+                                </div>  
+                              </div>
+
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+
+                              <div class="img">
+                                <img src="img/portfolio/.jpg">
+                                <div class="about_item">
+                                  <p> </p>
+                                  </div>  
+                                </div>
+
+                              </div>
+
+                            </div>
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="t3">
+              <div class="content content3">
+               <div class="container">
                  <div class="col-md-4 col-sm-12 col-xs-12">
                   <div class="img">
-                    <img src="img/portfolio/4.jpg">
+                    <img src="img/portfolio/29.jpg">
                     <div class="about_item">
-                      <p>Календарь домик - основание: картон 350гр,блок: бумага мелованная 150гр/м, печать
-полноцветная, выборочный УФ лак, биговка, пружина металлическая </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo </p>
                     </div>  
                   </div>
-
                 </div>
 
                 <div class="col-md-4 col-sm-12 col-xs-12">
                   <div class="img">
-                    <img src="img/portfolio/17.jpg">
+                    <img src="img/portfolio/.jpg">
                     <div class="about_item">
-                      <p>Каталоги - обложка: бумага мелованная 250гр/м, блок: бумага мелованная 150гр/м, печать
-полноцветная, ламинация обложки, выборочный лак, крепление клеевое </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo </p>
                     </div>  
                   </div>
-
                 </div>
 
                 <div class="col-md-4 col-sm-12 col-xs-12">
                   <div class="img">
-                    <img src="img/portfolio/18.jpg">
+                    <img src="img/portfolio/.jpg">
                     <div class="about_item">
-                      <p>Журналы - обложка: бумага мелованная 200гр/м, блок: бумага мелованная 130гр/м, печать
-полноцветная, ламинация обложки, выборочный лак, крепление клеевое, вклейка закладки на
-определенную страницу</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo </p>
                     </div>  
-                  </div>
-                </div>
-
-
+                  </div> 
+                </div>    
               </div>
-
-              <div class="container container_img">
-               <div class="col-md-4 col-sm-12 col-xs-12">
-
+            </div>
+          </div>
+          <div class="t4">
+            <div class="content content4">
+              <div class="container">
+               <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="img">
-                  <img src="img/portfolio/5.jpg">
+                  <img src="img/portfolio/31.jpg">
                   <div class="about_item">
-                    <pБуклеты - бумага мелованная 250гр/м, блокпечать полноцветная, ламинация
-обложки, выборочный лак, гибридный лак, апельсиновая корка, крепление: скоба. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo </p>
                   </div>  
                 </div>
-
               </div>
-              <div class="col-md-4 col-sm-12 col-xs-12"> 
 
+              <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="img">
-                  <img src="img/portfolio/12.jpg">
+                  <img src="img/portfolio/30.jpg">
                   <div class="about_item">
-                    <p>Каталоги - обложка: пластик, картон 300гр/м, блок: бумага мелованная 150гр/м, печать
-полноцветная, ламинация обложки, выборочный лак, вставка рубрикаторов, крепление: скоба </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo </p>
                   </div>  
                 </div>
-
-              </div>
-              <div class="col-md-4 col-sm-12 col-xs-12">
-
-                <div class="img">
-                  <img src="img/portfolio/14.jpg">
-                  <div class="about_item">
-                    <p>Блокноты - обложка: бумага мелованная 300гр/м, блок: бумага офсетная 80гр/м, печать
-полноцветная, ламинация обложки, выборочный лак, крепление: скоба </p>
-                  </div>  
-                </div>
-
               </div>
 
+             
             </div>
-
-
-            <div class="container container_img">
-             <div class="col-md-4 col-sm-12 col-xs-12">
-
-              <div class="img">
-                <img src="img/portfolio/8.jpg">
-                <div class="about_item">
-                  <p>Журналы - обложка: бумага мелованная 250гр/м, блок: бумага мелованная 150гр/м, печать
-полноцветная, ламинация обложки, выборочный лак, крепление: скоба </p>
-                </div>  
-              </div>
-
-            </div>
-            <div class="col-md-4 col-sm-12 col-xs-12"> 
-
-              <div class="img">
-                <img src="img/portfolio/7.jpg">
-                <div class="about_item">
-                  <p>Календарь домик - основание: картон 350гр,блок: бумага мелованная 150гр/м, вставки: бумага
-калька, печать полноцветная, выборочный УФ лак, биговка, пружина металлическая </p>
-                </div>  
-              </div>
-
-            </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-
-              <div class="img">
-                <img src="img/portfolio/16.jpg">
-                <div class="about_item">
-                  <p>Журналы - обложка: бумага мелованная 250гр/м, блок: бумага мелованная 150гр/м, печать
-полноцветная, ламинация обложки, выборочный лак, крепление: евроскоба.</p>
-                </div>  
-              </div>
-
-            </div>
-
           </div>
 
 
         </div>
-      </div>
-
-      <div class="t2">
-       <div class="content content2">
-         <div class="container">
-          <h2>Текстиль</h2>
-          <div class="col-md-4 col-sm-12 col-xs-12">
-
-           <div class="img">
-            <img src="img/portfolio/1.jpg" alt="скимп" class="imr-responsive" /> 
-            <div class="about_item">
-              <p>Ростовая кукла Пантера - изготовлена из флиса, основание - поролон. Разработка макета </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="img">
-            <div class="col-md-4 col-sm-12 col-xs-12">
-             <img  src="img/portfolio/1.2.jpg" alt="skimp" class="imr-responsive"/>
-             <div class="about_item">
-             <p>Ростовая кукла Пантера - изготовлена из флиса, основание - поролон. Разработка макета </p>
-              </div>
-            </div>
-          </div>       
-
-          <div class="img">
-            <div class="col-md-4 col-sm-12 col-xs-12">
-             <img src="img/portfolio/1.3.jpg" alt="скимп" class="imr-responsive" />
-             <div class="about_item">
-             <p>Ростовая кукла Пантера - изготовлена из флиса, основание - поролон. Разработка макета </p>
-              </div>
-            </div>
-          </div>
-          
-           <h2>Сувенирная продукция</h2>
-          <div class="col-md-4 col-sm-12 col-xs-12">
-
-           <div class="img">
-            <img src="img/portfolio/27.jpg" alt="скимп" class="imr-responsive" style="transform: rotate(90deg)" /> 
-            <div class="about_item">
-              <p>Ручки с нанесением логотипа компании тампопечатью </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="img">
-            <div class="col-md-4 col-sm-12 col-xs-12">
-             <img  src="img/portfolio/26.jpg" alt="skimp" class="imr-responsive"/>
-             <div class="about_item">
-              <p>Наклейки – оракал, полноцветная печать, высечка. </p>
-              </div>
-            </div>
-          </div>       
-
-          <div class="img">
-            <div class="col-md-4 col-sm-12 col-xs-12">
-             <img src="img/portfolio/25.jpg" alt="скимп" class="imr-responsive" />
-             <div class="about_item">
-              <p>Папки - картон 350гр, печать полноцветная, ламинация, высечка, биговка </p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="t3">
-      <div class="content content3">
-       <div class="container">
-         <div class="col-md-4 col-sm-12 col-xs-12">
-          <div class="img">
-            <img src="img/portfolio/.jpg">
-            <div class="about_item">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo </p>
-            </div>  
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12">
-          <div class="img">
-            <img src="img/portfolio/.jpg">
-            <div class="about_item">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo </p>
-            </div>  
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-12">
-          <div class="img">
-            <img src="img/portfolio/.jpg">
-            <div class="about_item">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo </p>
-            </div>  
-          </div> 
-        </div>    
       </div>
     </div>
   </div>
-  <div class="t4">
-    <div class="content content4">
-      <div class="container">
-       <div class="col-md-4 col-sm-12 col-xs-12">
-        <div class="img">
-          <img src="img/portfolio/.jpg">
-          <div class="about_item">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo </p>
-          </div>  
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <div class="img">
-          <img src="img/portfolio/.jpg">
-          <div class="about_item">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo </p>
-          </div>  
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <div class="img">
-          <img src="img/portfolio/.jpg">
-          <div class="about_item">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo </p>
-          </div>  
-        </div> 
-      </div>     
-    </div>
-  </div>
+  
 
 
-</div>
-</div>
-</div>
-</div>
-
-
-          <?php 
-          include "footer.inc.php";
-          ?>
+  <?php 
+  include "footer.inc.php";
+  ?>
 
 
 
@@ -313,17 +346,17 @@
 
 
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-1.12.3.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-1.12.3.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
 
-<!-- MY JS -->
+  <!-- MY JS -->
 
-<script src="effect_tab.js"></script>
-<script src="effect_img.js"></script>
-<script src="validation.js"></script>
+  <script src="effect_tab.js"></script>
+  <script src="effect_img.js"></script>
+  <script src="validation.js"></script>
 
 
 </body>

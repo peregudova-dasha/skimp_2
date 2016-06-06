@@ -47,14 +47,13 @@
 
       
           <?php 
-          include "menu.inc.php";
+          include "menu_main.inc.php";
           ?>
 
       </header>
 
  
-     
-
+  
     <div id="we_are">
       <div class="container">
         <h2>Немного о нас</h2>
@@ -74,7 +73,7 @@
       <div class="container"> 
         <div class="col-md-6 col-sm-6 col-xs-12">
          <div class="service serv1">
-          <a href="polygraphy.html">
+          <a href="polygraphy.php">
             <div class="s_icon icon1">
               <img class="img-responsive" src="img/icon/book.png" alt="скимп" />
               <p>Полиграфическая продукция</p>
@@ -86,7 +85,7 @@
           </a>
         </div>
         <div class="service serv3">
-         <a href="lfp.html"> <div class="s_icon icon3">
+         <a href="lfp.php"> <div class="s_icon icon3">
           <img class="img-responsive" src="img/icon/signboard.png" alt="скимп" />
           <p>Широкоформатная печать</p>
           <div class="types">
@@ -99,7 +98,7 @@
   </div>
   <div class="col-md-6 col-sm-6 col-xs-12">
    <div class="service serv2">
-     <a href="digital.html"> 
+     <a href="digital.php"> 
        <div class="s_icon icon2">
         <img class="img-responsive" src="img/icon/bord.png" alt="" />
         <p>Цифровая печать</p>
@@ -110,7 +109,7 @@
     </a>
   </div>
   <div class="service serv4">
-   <a href="corp.html"> 
+   <a href="corp.php"> 
      <div class="s_icon icon4">
       <img class="img-responsive" src="img/icon/corp.png" alt="" />
       <p>Корпоративная продукция</p>
@@ -186,8 +185,7 @@
 
           <div class="work">
             <div class="image work1"></div>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p><i>Ростовая кукла Пантера.</i><br> Изготовлена из флиса, основание - поролон. Разработка макета.</p>
             </div>
 
           </div>
@@ -195,8 +193,9 @@
 
             <div class="work">
               <div class="image work2"></div>
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.  </p>
+              <p> <i>Журналы.</i><br> Oбложка и блок: бумага мелованная, печать
+полноцветная, ламинация обложки, выборочный лак, крепление клеевое, вклейка закладки на
+определенную страницу  </p>
               </div>
 
             </div>
@@ -204,8 +203,7 @@
 
               <div class="work">
                 <div class="image work3"></div>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p><i> Ярлык на дверь.</i> <br>Полноцветная печать, переплетный картон, двухторонняя кашировка, высечка отверстий и формы. </p>
                 </div>
 
               </div>
@@ -213,8 +211,8 @@
 
                 <div class="work">
                  <div class="image work4"></div>
-                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.  </p>
+                 <p><i>Календарь домик.</i><br> Oснование: картон, блок: бумага мелованная, вставки: бумага
+калька, печать полноцветная, выборочный УФ лак, биговка, пружина металлическая </p>
                 </div>
 
               </div>
@@ -222,8 +220,7 @@
 
                 <div class="work">
                   <div class="image work5"></div>
-                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.  </p>
+                  <p> <i>Каталог.</i><br> Полноцветная печать, глянцевая ламинация, клеевое крепление.  </p>
                   </div>
 
                 </div>
@@ -234,14 +231,13 @@
           </div>
 
           <div class="button">
-            <a href="portfolio.html"><p>Посмотреть еще</p></a>
+            <a href="portfolio.php"><p>Посмотреть еще</p></a>
           </div>  
         </div>
       </div>
 
-
 <?php
-include "footer.inc.html"
+include "footer.inc.php"
 ?>
 
 

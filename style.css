@@ -1,3 +1,6 @@
+/* ---------------------- */
+/* STYLES TO ALL ELEMENTS */
+/* ---------------------- */
 * {
   font-family: 'Open Sans', sans-serif;
 }
@@ -21,7 +24,7 @@ p {
   background: #1e6287;
 }
 .end3 {
-  background: #fff;
+  background: #ffffff;
 }
 .button {
   height: 50px;
@@ -43,6 +46,8 @@ p {
 .button a:hover {
   text-decoration: none;
 }
+/* -------------------- */
+/* -------------------- */
 header #navigation {
   position: absolute;
   top: 660px;
@@ -59,13 +64,13 @@ header #navigation .navbar {
 }
 header #navigation .navbar a:hover {
   background: #1e6287;
-  color: #fff;
+  color: #ffffff;
 }
 header #navigation .navbar ul {
   font-size: 1.25em;
 }
 header #navigation .navbar ul li a {
-  color: #fff;
+  color: #ffffff;
 }
 header #navigation .navbar ul li:active {
   background: #20262d;
@@ -105,7 +110,7 @@ header #navigation .navbar .dropdown-menu li a {
   z-index: 5;
 }
 #title #h1 {
-  border: 5px solid #fff;
+  border: 5px solid #ffffff;
   width: 380px;
   padding: 5px;
   margin: 0px auto;
@@ -116,7 +121,7 @@ header #navigation .navbar .dropdown-menu li a {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 5em;
-  color: #fff;
+  color: #ffffff;
   display: none;
   padding: 0;
 }
@@ -132,15 +137,15 @@ header #navigation .navbar .dropdown-menu li a {
 #title p {
   text-align: center;
   font-size: 1.5em;
-  color: #fff;
+  color: #ffffff;
   padding: 20px 300px;
   margin-top: 50px;
 }
 #title .number {
-  font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  color: #fff;
+  font-size: 1.5em;
+  color: #ffffff;
   padding: 0;
   margin: 0;
   opacity: 0;
@@ -159,15 +164,15 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #we_are {
   background: #76bbe3;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   padding-top: 80px;
 }
 #we_are h2 {
   display: block;
   padding: 20px;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
   margin: 0px auto;
   width: 350px;
 }
@@ -178,11 +183,11 @@ header #navigation .navbar .dropdown-menu li a {
   padding: 30px 100px 0 100px;
 }
 #services {
-  background: #fff;
+  background: #ffffff;
   padding-top: 50px;
 }
 #services .serv_h2 {
-  background: #fff;
+  background: #ffffff;
   color: #2d3640;
   padding: 70px;
 }
@@ -195,7 +200,7 @@ header #navigation .navbar .dropdown-menu li a {
   width: 330px;
 }
 #services .container {
-  background: #fff;
+  background: #ffffff;
 }
 #services .container .service {
   margin: 20px 0;
@@ -225,7 +230,7 @@ header #navigation .navbar .dropdown-menu li a {
   text-align: center;
   margin: 0px auto;
   font-size: 1.8em;
-  color: #fff;
+  color: #ffffff;
   opacity: 1;
 }
 #services .container .serv1 {
@@ -260,39 +265,48 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #works {
   background: #2d3640;
-  color: #fff;
+  color: #ffffff;
   padding-top: 50px;
   padding-bottom: 50px;
+  /*********** BUTTONS ***********/
 }
 #works h2 {
   font-size: 2.5em;
   display: block;
   padding: 20px;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
   margin: 70px auto 0px auto;
   width: 550px;
 }
 #works .carousel {
   max-width: 980px;
+  /* ширина всего блока */
   margin: 50px auto;
   width: 100%;
 }
 #works .carousel-wrapper {
   margin: 10px 30px;
+  /* отступы для стрелок */
   overflow: hidden;
+  /* скрываем содержимое, выходящее за рамки основной области */
   position: relative;
 }
 #works .carousel-items {
   width: 10000px;
+  /* устанавливаем большую ширину для набора элементов */
   position: relative;
+  /* позиционируем блок относительно основной области карусели */
 }
 #works .carousel-block {
   float: left;
+  /* выстраиваем все элементы карусели в ряд */
   width: 220px;
+  /* задаём ширину каждого элемента */
   height: 100%;
   overflow: hidden;
   padding: 20px;
+  /* делаем оступы, чтобы элементы не сливались */
 }
 #works .carousel-block .work {
   display: block;
@@ -390,7 +404,7 @@ header #navigation .navbar .dropdown-menu li a {
   text-align: center;
   margin: 0px auto;
   font-size: 1.75em;
-  color: #fff;
+  color: #ffffff;
   opacity: 1;
   font-weight: 400;
 }
@@ -419,7 +433,7 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #services_page .links {
   border-left: 2px solid #1e6287;
-  padding: 10px;
+  padding: 10px ;
 }
 #services_page .links a {
   display: inline-block;
@@ -517,7 +531,7 @@ header #navigation .navbar .dropdown-menu li a {
   padding-left: 50px;
 }
 #priorities {
-  background: #fff;
+  background: #ffffff;
   margin-top: 100px;
 }
 #priorities .container:first-child {
@@ -627,7 +641,7 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #work .our_works .tab-current {
   background: #76bbe3;
-  color: #fff;
+  color: #ffffff;
   padding: 25px 3% 15px 3%;
 }
 #work .our_works .cont .t2,
@@ -662,12 +676,12 @@ header #navigation .navbar .dropdown-menu li a {
 #work .our_works .cont .content .about_item p {
   font-size: 1.1em;
   padding: 20px;
-  color: #fff;
+  color: #ffffff;
 }
 .head {
   padding: 100px 100px 70px 100px;
   background: #76bbe3;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 .head p {
@@ -742,11 +756,14 @@ header #navigation .navbar .dropdown-menu li a {
 }
 .tab_content .types ul {
   list-style-image: url("img/list_style4.png");
-  margin: 0 20px;
+  margin: 0 20px ;
 }
 .tab_content .types ul li {
   font-size: 1.3em;
   margin: 5px;
+}
+#to_portfolio .button {
+  width: 300px;
 }
 #polygraphy .img1 {
   background: url("img/polygraphy/note1.jpg") no-repeat 50% 50%;
@@ -973,51 +990,51 @@ header #navigation .navbar .dropdown-menu li a {
   background-size: cover;
 }
 #corp .img1 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/s1.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img2 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/s2.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img3 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/s3.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img4 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/s4.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img5 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/p1.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img6 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/p2.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img7 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/p3.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img8 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/p4.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img9 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/t1.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 #corp .img10 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/t2.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 #corp .img11 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/t3.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 #corp .img12 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/t4.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 #corp .img13 {
@@ -1064,13 +1081,13 @@ header #navigation .navbar .dropdown-menu li a {
   font-size: 2.5em;
   display: block;
   padding: 20px;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
   margin: 70px auto 0px auto;
   width: 400px;
 }
 #feedback .container {
-  color: #fff;
+  color: #ffffff;
 }
 #feedback .container h2 {
   margin-top: 50px;
@@ -1088,17 +1105,17 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #feedback .container .feedback_form .img1 {
   top: 75px;
-  background: url("http://fs172.www.ex.ua/show/997259611822/237161184/237161184.png?1600") no-repeat;
+  background: url("img/form1.png") no-repeat;
   background-size: cover;
 }
 #feedback .container .feedback_form .img2 {
   top: 132px;
-  background: url("http://fs172.www.ex.ua/show/997259611822/237161194/237161194.png?1600") no-repeat;
+  background: url("img/form2.png") no-repeat;
   background-size: cover;
 }
 #feedback .container .feedback_form .img3 {
   top: 187px;
-  background: url("http://fs172.www.ex.ua/show/997259611822/237161196/237161196.png?1600") no-repeat;
+  background: url("img/form3.png") no-repeat;
   background-size: cover;
 }
 #feedback .container .feedback_form .val_false {
@@ -1176,6 +1193,8 @@ footer .right p {
   text-align: right;
   margin-top: 80px;
 }
+/* Media queries */
+/*PHONE*/
 @media all and (max-width: 767px) {
   .container {
     max-width: 730px;
@@ -1255,6 +1274,35 @@ footer .right p {
   }
   #services_page .service p {
     font-size: 1.3em;
+  }
+  #about {
+    /*
+.logo_s {
+    .f1 {
+       left: 150px;
+    }
+    .f2 {
+      left: 115px;
+    }
+    .f3 {
+       left: 80px;
+    }
+    .f4 {
+       left: 80px;
+    }
+    .f5 {
+      left: 109.5px;
+    }
+    .f6 {
+      left: 109.5px;
+    }
+     .f7 {
+      left: 74px;
+    }
+    .f8 {
+     left: 39px;
+    }
+} */
   }
   #about .s {
     display: none;
@@ -1410,6 +1458,7 @@ footer .right p {
     font-size: 1.8em;
   }
 }
+/*TABLETS*/
 @media all and (min-width: 768px) and (max-width: 991px) {
   * {
     margin: 0;
@@ -1463,11 +1512,13 @@ footer .right p {
 #feedback p {
   text-align: center;
 }
+/*MEDIUM DEVICE*/
 @media all and (min-width: 992px) and (max-width: 1200px) {
   .container {
     width: 95%;
   }
 }
+/*LARGE DEVICE*/
 @media all and (min-width: 1201px) {
   .container {
     width: 95%;

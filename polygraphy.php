@@ -32,7 +32,7 @@
           ?>
     </header>
 
-    <div class="head">
+      <div class="head">
       <div class="container">
 
         <h1>Полиграфическая продукция</h1>
@@ -348,7 +348,7 @@
     <li>выборочная лакировка</li> 
     <li>гибридная лакировка</li>
     <li>конгрев</li>
-    <li>тиснение/li>
+    <li>тиснение</li>
     <li>высечка и т.д.</li>
 
 </ul>
@@ -374,6 +374,13 @@
 </div>
 </div>
 </div>
+</div>
+
+
+<div id="to_portfolio">
+ <div class="button">
+   <a href="portfolio.php"><p>Посмотреть портфолио</p></a>
+ </div>
 </div>
 
 
